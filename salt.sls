@@ -1,9 +1,9 @@
 salt-minion:
   2014.1.10: 
-    full_name: Salt Minion
+    installer: 'https://docs.saltstack.com/downloads/Salt-Minion-2014.1.10-AMD64-Setup.exe'
+    full_name: Salt Minion 2014.1.10
     locale: en_US
     reboot: False
-    installer: true.exe
-    install_flags: ''
-    uninstaller: true.exe
-    uninstall_flags: ''
+    install_flags: ' /sp- /verysilent /norestart'
+    uninstaller: '\salt\unins000.exe'
+    uninstall_flags: ' /verysilent'
