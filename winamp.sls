@@ -5,5 +5,5 @@ winamp:
     reboot: False
     installer: 'http://winampplugins.co.uk/Winamp/winamp5666_full_en-us_redux.exe'
     install_flags: ' /S'
-    uninstaller: '%PROGRAMFILES(x86)%\Winamp\unins000.exe'
+    uninstaller: '%PROGRAMFILES(x86)%\Winamp\UninstWA.exe'
     uninstall_flags: ' /S'
