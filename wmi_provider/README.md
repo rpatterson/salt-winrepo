@@ -10,7 +10,7 @@ This state will help you to deploy optional windows component "wmi windows insta
 
 You need it on windows server 2003 otherwise, salt-minion can't report complete list of installed softwares.
 
-To use this state you need to put 3 files from windows 2003 install CD to i386 folder:
+To use this state you need to rename init.sls.yaml to init.sls and put 3 files from windows 2003 install CD to i386 folder:
  * MSI.MF_
  * MSI.MO_
  * MSIPROV.DL_
