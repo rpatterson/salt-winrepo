@@ -1,4 +1,5 @@
 kodi:
+  20150116-780d7bd:
     full_name: Kodi
     locale: en_US
     reboot: False
