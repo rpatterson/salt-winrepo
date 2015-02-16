@@ -1,9 +1,9 @@
 salt-minion:
-  v2014.7.0:
-    full_name: Salt Minion v2014.7.0
+  v2014.7.1:
+    full_name: Salt Minion v2014.7.1
     locale: en_US
     reboot: False
-    installer: 'http://docs.saltstack.com/downloads/Salt-Minion-2014.7.0-AMD64-Setup.exe'
+    installer: 'http://docs.saltstack.com/downloads/Salt-Minion-2014.7.1-AMD64-Setup.exe'
     install_flags: ' /S'
     uninstaller: '%SystemDrive%\salt\unins000.exe'
     uninstall_flags: ' /S'
